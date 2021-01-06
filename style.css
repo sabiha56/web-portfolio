@@ -1,11 +1,31 @@
-body{
-    font-family: 'Poppins', sans-serif;
+h1,h3{
+   
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+h2{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    margin-left: 5%;
 }
 h1{
     font-size: 50px;
 }
+h3{
+    margin-left: 5%;
+}
 .name-highlight{
     color: orange;
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+p{
+    padding-bottom: 10%;
+}
+.working-project{
+    background-color: rgb(241, 239, 239);
 }
 .half-width{
     width: 40%;
@@ -13,6 +33,57 @@ h1{
     margin-left: 5%;
     padding-left: 2%;
 }
+.one-third-width{
+    box-shadow: 10px 10px 40px lightgray;
+    border-radius: 20px;
+    width: 31%;
+    float: left;
+    margin-left: 30px;
+    
+}
+.one-third-width p{
+    margin-left: 5%;
+}
+
+.one-third-width img{
+    width: 90%;
+    height: 100%;
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
 .half-width img{
     width: 100%;
+    margin-right: 5px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: salmon;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: bold;
+}
+.half-width text{
+    padding-top: 20%;
+    
+}
+.blue-part{
+    
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.blue-part img{
+    width: 50%;
+    padding: 20%;
+}
+.blue-part h2{
+    position: absolute;
+    padding: 20px;
+}
+.img-text{
+    position: absolute;
+    
+    padding: 10px;
+    
 }
